@@ -11,17 +11,17 @@ Features
 Project Structure
 -----------------
 '''
-📦northwindwebapp
- ┗ 📂target
- ┃ ┣ 📂classes
- ┃ ┃ ┗ 📂com
- ┃ ┃ ┃ ┗ 📂rr
- ┃ ┃ ┃ ┃ ┣ 📂customers
- ┃ ┃ ┃ ┃ ┃ ┣ 📜CustomersDAO.class
- ┃ ┃ ┃ ┃ ┃ ┗ 📜customers.class
- ┃ ┃ ┃ ┃ ┗ 📂northwind
- ┃ ┃ ┃ ┃ ┃ ┗ 📜DatabaseConnectionManager.class
- ┃ ┗ 📜northwindwebapp-1.0-SNAPSHOT.war
+- 📦northwindwebapp
+-  ┗ 📂target
+-  ┃ ┣ 📂classes
+-  ┃ ┃ ┗ 📂com
+-  ┃ ┃ ┃ ┗ 📂rr
+-  ┃ ┃ ┃ ┃ ┣ 📂customers
+-  ┃ ┃ ┃ ┃ ┃ ┣ 📜CustomersDAO.class
+-  ┃ ┃ ┃ ┃ ┃ ┗ 📜customers.class
+-  ┃ ┃ ┃ ┃ ┗ 📂northwind
+-  ┃ ┃ ┃ ┃ ┃ ┗ 📜DatabaseConnectionManager.class
+-  ┃ ┗ 📜northwindwebapp-1.0-SNAPSHOT.war
 '''
 -   **`CustomersDAO.class`**: Handles database operations related to customers.
 -   **`customers.class`**: Represents customer entities in an object-oriented way.
