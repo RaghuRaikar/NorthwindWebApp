@@ -10,7 +10,7 @@ Features
 
 Project Structure
 -----------------
-'''
+
 - 📦northwindwebapp
 -  ┗ 📂target
 -  ┃ ┣ 📂classes
@@ -22,7 +22,7 @@ Project Structure
 -  ┃ ┃ ┃ ┃ ┗ 📂northwind
 -  ┃ ┃ ┃ ┃ ┃ ┗ 📜DatabaseConnectionManager.class
 -  ┃ ┗ 📜northwindwebapp-1.0-SNAPSHOT.war
-'''
+
 -   **`CustomersDAO.class`**: Handles database operations related to customers.
 -   **`customers.class`**: Represents customer entities in an object-oriented way.
 -   **`DatabaseConnectionManager.class`**: Manages and optimizes database connections.
