@@ -10,6 +10,7 @@ Features
 
 Project Structure
 -----------------
+\`\`\`plaintextnorthwindwebapp/│── target/│ ├── classes/com/rr/customers/│ │ ├── CustomersDAO.class│ │ ├── customers.class│ ├── classes/com/rr/northwind/│ │ ├── DatabaseConnectionManager.class│ ├── northwindwebapp-1.0-SNAPSHOT...
 '''
 northwindwebapp/
 │── target/
