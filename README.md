@@ -10,23 +10,17 @@ Features
 
 Project Structure
 -----------------
-├── src
-│   ├── controller
-│   │   ├── **/*.css
-│   ├── views
-│   ├── model
-│   ├── index.js
-├── public
-│   ├── css
-│   │   ├── **/*.css
-│   ├── images
-│   ├── js
-│   ├── index.html
-├── dist (or build
-├── node_modules
-├── package.json
-├── package-lock.json
-└── .gitignore
+📦northwindwebapp
+ ┗ 📂target
+ ┃ ┣ 📂classes
+ ┃ ┃ ┗ 📂com
+ ┃ ┃ ┃ ┗ 📂rr
+ ┃ ┃ ┃ ┃ ┣ 📂customers
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜CustomersDAO.class
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜customers.class
+ ┃ ┃ ┃ ┃ ┗ 📂northwind
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜DatabaseConnectionManager.class
+ ┃ ┗ 📜northwindwebapp-1.0-SNAPSHOT.war
 
 -   **`CustomersDAO.class`**: Handles database operations related to customers.
 -   **`customers.class`**: Represents customer entities in an object-oriented way.
